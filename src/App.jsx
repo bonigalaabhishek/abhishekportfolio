@@ -10,6 +10,8 @@ import Projects from './Components/Projects/Projects';
 import Header from './Components/Header/Header';
 import LocomotiveScroll2 from "locomotive-scroll";
 import HomePage from './Components/HomePage/HomePage';
+import Lottie from "lottie-react"
+import loadingani from "/src/assets/loadingani.json"
 gsap.registerPlugin(useGSAP)
  
 function App() {
@@ -17,6 +19,7 @@ function App() {
   //  var main=document.querySelector("#root")
   //  var cursor=document.querySelector("#cursor");
    const cursorRef = useRef(null);
+   const mainRef = useRef(null);
  
  
 const [mousePosition, setMousePosition] = useState({x:0,y:0})
@@ -55,8 +58,10 @@ useEffect(() => {
 // const textLeave=()=>setCursorVariant("default")
   return (
     <>
-    <div className='w-full min-h-screen  text-white bg-zinc-900'>
+     {/* <Lottie animationData={loadingani} className='loading'/> */}
+    <div ref={mainRef} className='w-full min-h-screen  text-white bg-zinc-900'>
     <motion.div  id="cursor" ref={cursorRef} />
+   
     <Header/>
     {/* <HomePage/> */}
           {/* <NewNav/>   */}

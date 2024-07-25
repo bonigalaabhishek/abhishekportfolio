@@ -100,11 +100,11 @@
         justify-content: center;
         /* left: 0; */
         position: fixed;
-        top: 10%;
-        width: 99vw;
+        top: 8%;
+        width: 100vw;
         position: fixed;
         z-index: 1;
-        padding: 50px;
+        padding: 60px;
     }
     .headerHeading {
         font-size: 7vh;
