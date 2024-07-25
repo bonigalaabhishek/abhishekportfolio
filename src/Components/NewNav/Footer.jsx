@@ -2,11 +2,11 @@
 
 const Footer = () => {
     return (
-    <div className='flex gap-5 w-full h-screen bg-zinc-900 p-20' >
-      <div className='w-1/2 font-mono flex flex-col justify-between h-full'>
+    <div className=' grid md:flex gap-5 w-full h-screen bg-zinc-900 md:p-20 p-5' >
+      <div className='w-full grid md:w-1/2 font-mono md:flex flex-col justify-between h-full'>
         <div className="heading">
-        <h1 className='text-[8vw] font-semibold uppercase leading-none -mb-6'>EYE-</h1>
-        <h1 className='text-[8vw] font-semibold uppercase leading-none -mb-6'>OPENING-</h1>
+        <h1 className='text-[8vw] font-semibold uppercase leading-none md:-mb-6 -mb-1'>EYE-</h1>
+        <h1 className='text-[8vw] font-semibold uppercase leading-none md:-mb-6 -mb-1'>OPENING-</h1>
         </div>
         <h1>ochi</h1>
       </div>

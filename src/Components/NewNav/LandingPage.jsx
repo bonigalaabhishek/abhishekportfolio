@@ -26,36 +26,22 @@ const LandingPage = () => {
  
  
     return (
-        <div data-scroll data-scroll-section data-scroll-speed="-.1" className='w-full h-screen bg-zinc-900 p-4 '>
-            <div className="developername mt-20 flex justify-center items-center flex-col">
-            <div className="masker" >
-                            <div className="w-fit flex flex-col relative">
-                            <h1 ref={maintitleRef}  className="uppercase text-[7.5vw] font-bold leading-[6vw] tracking-tighter flex"  >Abhi <span><h1 ref={maintitleRef2} className="relative uppercase text-[7.5vw] font-bold leading-[6vw] tracking-tighter" >shek</h1>
+        <div data-scroll data-scroll-section data-scroll-speed="-.1" className='flex justify-center flex-col w-full h-screen bg-zinc-900 p-9 '>
+            <div className="developername flex justify-center items-center md:items-center flex-col  md:mt-20 ">
+            <div className="masker flex justify-center flex-start md:p-2" >
+                            <div className=" w-full justify-center items-center flex flex-col relative md:grid">
+                            <h1 ref={maintitleRef}  className="uppercase  text-5xl md:text-[7.5vw] font-bold leading-[6vw] tracking-tighter flex"  >Abhi <span><h1 ref={maintitleRef2} className="relative uppercase text-5xl md:text-[7.5vw] font-bold leading-[6vw] tracking-tighter" >shek</h1>
                             </span></h1>
-                            <img ref={imageRef} className=' relative -right-[7vw] bottom-[10vw]  w-[25vw] h-[25vw] ' src="./src/Components/NewNav/abhipic.png" alt="Your Name" />
-                            <h1 ref={titleRef}  className="relative uppercase text-[7.5vw] bottom-[12vw] font-bold leading-[6vw] tracking-tighter" >Bonigala</h1>
+                            <img ref={imageRef} className='relative w-full h-full bottom-[20vw] md:-right-[7vw] md:bottom-[10vw]  md:w-[25vw] md:h-[25vw] ' src="./src/Components/NewNav/abhipic.png" alt="Your Name" />
+                            <h1 ref={titleRef}  className="absolute md:relative uppercase text-5xl md:text-[7.5vw] bottom-[12vw] font-bold leading-[6vw] tracking-tighter" >Bonigala</h1>
                             </div>
                             </div>
-                {/* {["ABHI", "SHEK","BONIGALA"].map((item, index) => {
-                     let ref;
-                     if (index === 0) ref = maintitleRef;
-                     else if (index === 1) ref = maintitleRef2;
-                     else if (index === 2) ref = titleRef;
-                    return (
-                        <div className="masker" key={index} ref={ref}>
-                            <div className="w-fit flex">
-                                {index===1 && <motion.div initial={{width:0}} animate={{width:"7.5vw"}} transition={{ease:[0.76,0,0.24,1],duration:1}}><img className='w-[20vw] h-[25vw] relative -top-[7vw] right-[9vw]' src="./src/Components/Home/image.png" alt="Your Name" /></motion.div>}
-                            <h1  className="uppercase text-[7.5vw] font-bold leading-[6vw] tracking-tighter" key={index}>{item}</h1>
-                            </div>
-                           
-                        </div>
-                    )
-                })} */}
+    
             </div>
-            <div className='border-t-[1px] border-zinc-800   flex justify-between items-center py-5 px-20'>
+            <div className='border-t-[1px] border-zinc-800 mb-30   flex justify-between items-center py-5 px-20'>
                 {["For Pricewaterhouse Cooper", "From the first pitch to last"].map((item, index) => {
                     return (
-                        <p className="text-md font-mono tracking-tight leading-none" key={index}>{item}</p>
+                        <p className="text-[1.5vw] font-mono tracking-tight leading-none" key={index}>{item}</p>
                     )
                 })}
        

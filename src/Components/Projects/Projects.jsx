@@ -117,8 +117,8 @@ const Projects = () => {
       <section className='section1'>
         <div className="center">
           <div className="center-part1">
-            <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, ipsum.</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis ab vitae corrupti nesciunt sapiente cupiditate ducimus aliquam laboriosam expedita perspiciatis!</p>
+            <h1>Over the last 2 years, my expertise has centered around JavaScript, encompassing code writing, refactoring, and seamless integration of RESTful APIs with frameworks like React,FlutterFlow and GSAP. </h1>
+            <p>My experience extends beyond, having worked with diverse tech stacks.</p>
           </div>
           <div className="center-part2">
             <div className="circle_block">
@@ -155,8 +155,8 @@ const Projects = () => {
  
       <section className="section2">
         <div ref={ssroll} className="services">
-          <h3>Servives</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel nisi voluptates veniam quis inventore reiciendis non facere id quas. Iure!</p>
+          <h3>Projects</h3>
+          <p>As a frontend developer, I have worked on various projects for different clients. Let's look at my projects, including a custom cursor feature and a GSAP-animated navigation bar.</p>
         </div>
  
         <div ref={ssroll2} id="maintab" className="section2-container">
