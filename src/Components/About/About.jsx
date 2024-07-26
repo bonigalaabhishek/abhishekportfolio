@@ -49,7 +49,7 @@ const About = () => {
  
   return (
     <div className='aboutmaincontainer'>
-      <header className='Frontendheading'>
+      <header className='Frontendheading '>
         <h1 className='headerHeading'>Frontend</h1>
         <h1 className='headerHeading'>Developer</h1>
       </header>
