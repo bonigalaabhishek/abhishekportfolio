@@ -3,7 +3,7 @@ import { useRef, useState, useEffect } from 'react';
 import { useGSAP } from '@gsap/react';
 import { motion } from "framer-motion"
 import './App.css'
-import { Routes, Route, } from "react-router-dom";
+import { Routes, Route,useLocation } from "react-router-dom";
 import About from './Components/About/About';
 import Projects from './Components/Projects/Projects';
 import Header from './Components/Header/Header';
@@ -16,6 +16,7 @@ gsap.registerPlugin(useGSAP)
 
 function App() {
   const [loadingComplete, setLoadingComplete] = useState(false);
+  const location = useLocation();
   const LocomotiveScroll = new LocomotiveScroll2();
   //  var main=document.querySelector("#root")
   //  var cursor=document.querySelector("#cursor");
@@ -89,6 +90,9 @@ function App() {
     }
   }, [mousePosition]);
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location]);
 
 
   // const textEnter=()=>setCursorVariant("text")
