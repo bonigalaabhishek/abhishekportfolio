@@ -32,7 +32,7 @@ const LandingPage = () => {
                             <div className=" w-full justify-center items-center flex flex-col relative md:grid">
                             <h1 ref={maintitleRef}  className="uppercase  text-5xl md:text-[7.5vw] font-bold leading-[6vw] tracking-tighter flex"  >Abhi <span><h1 ref={maintitleRef2} className="relative uppercase text-5xl md:text-[7.5vw] font-bold leading-[6vw] tracking-tighter" >shek</h1>
                             </span></h1>
-                            <img ref={imageRef} className='relative w-full h-full bottom-[20vw] md:-right-[7vw] md:bottom-[10vw]  md:w-[25vw] md:h-[25vw] ' src="./src/assets/abhipic.png" alt="Your Name" />
+                            <img ref={imageRef} className='relative w-full h-full bottom-[20vw] md:-right-[7vw] md:bottom-[10vw]  md:w-[25vw] md:h-[25vw] ' src="./abhipic.png" alt="Your Name" />
                             <h1 ref={titleRef}  className="absolute md:relative uppercase text-5xl md:text-[7.5vw] bottom-[12vw] font-bold leading-[6vw] tracking-tighter" >Bonigala</h1>
                             </div>
                             </div>
