@@ -9,9 +9,8 @@ import Projects from './Components/Projects/Projects';
 import Header from './Components/Header/Header';
 import LocomotiveScroll2 from "locomotive-scroll";
 import HomePage from './Components/HomePage/HomePage';
-import Lottie from "lottie-react"
-import loadingani from "/src/assets/loadingani.json"
 import EclipseAnimation from './Components/Ec/EclipseAnimation';
+
 gsap.registerPlugin(useGSAP)
 
 function App() {
@@ -115,6 +114,7 @@ function App() {
         <motion.div id="cursor" ref={cursorRef} />
 
         <Header />
+      
         {/* <HomePage/> */}
         {/* <NewNav/>   */}
         <div className="mainpage">
