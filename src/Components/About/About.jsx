@@ -23,7 +23,7 @@ const About = () => {
       start: "top 75%",
       end: "top -75% ",
       scrub: 3,
-      markers: true,
+      // markers: true,
       stagger: 0.15,
       onEnter: () => {
         gsap.to(tech.current, { y: 0, opacity: 1, duration: 0.9, });
