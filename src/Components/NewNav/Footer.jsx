@@ -8,15 +8,18 @@ const Footer = () => {
         <h1 className='text-[8vw] font-semibold uppercase leading-none md:-mb-6 -mb-1'>LETS</h1>
         <h1 className='text-[8vw] font-semibold uppercase leading-none md:-mb-6 -mb-1'>CONNECT-</h1>
         </div>
-        <h1>Abhishek@</h1>
+        <h1>bonigalaabhishek@gmail.com</h1>
       </div>
       <div className='w-1/2 '>
       <h1 className='text-[5vw] font-semibold uppercase leading-none -mb-6'>SOCIAL
       </h1>
       <div className='dets font-mono mt-10'>
+      <a className="block text-xl font-mono" href="https://linkedin.com/in/abhishek-bonigala-9a6a199b">LinkedIn</a>
+ 
             <a className='block text-xl font-mono' href="">Facebook</a>
-            <a className='block text-xl font-mono' href="">Linkedin</a>
             <a className='block text-xl font-mono' href="">Instagram</a>
+            <a className='block text-xl font-mono' href=""></a>
+
         </div>
       </div>
     </div>

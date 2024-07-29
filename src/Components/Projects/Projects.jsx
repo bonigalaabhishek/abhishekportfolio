@@ -225,11 +225,12 @@ const Projects = () => {
                 </div>
 
                 <h1 className="font-bold text-xl text-white mb-4 relative z-50">
-                  UI Development 
+                  Banking Application
                 </h1>
 
                 <p className="font-normal text-base text-slate-500 mb-4 relative z-50">
-                Developed UIs using HTML, CSS, and JavaScript from mockups. Ensured responsive design, optimized for speed, and collaborated with team members. Tested and debugged for smooth user experience and issue resolution.
+                 Developed Coops application , containing details of customers, accounts, and transaction data.Provided support for application creation in React components and created and added functionalities to several components.
+
                 </p>
 
                 <button className="border px-4 py-1 rounded-lg border-gray-500 text-gray-300">
@@ -343,7 +344,7 @@ const Projects = () => {
                 </h1>
 
                 <p className="font-normal text-base text-slate-500 mb-4 relative z-50">
-                Developed NxtTrendz, an eCommerce app clone with product search, filters, and sorting. Created pages/routes with React Router, using Route, Switch, Link, state, and event handlers. Added YouTube video embeds.
+                Developed NxtTrendz, an eCommerce app  with product search, filters, and sorting. Created pages/routes with React Router, using Route, Switch, Link, state, and event handlers. Added YouTube video embeds.
                 </p>
 
                 <button className="border px-4 py-1 rounded-lg border-gray-500 text-gray-300">
