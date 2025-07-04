@@ -47,7 +47,7 @@ const LandingPage = () => {
       data-scroll
       data-scroll-section
       data-scroll-speed="-.1"
-      className="flex justify-center flex-col w-full h-screen bg-zinc-900  "
+      className="flex justify-end flex-col w-full h-screen bg-zinc-900  "
     >
 
 
@@ -98,7 +98,7 @@ const LandingPage = () => {
      
 
       <div className="border-t-[1px] border-zinc-800 mb-30   flex justify-between items-center py-5 px-20">
-        {["For Pricewaterhouse Cooper", "From the first pitch to last"].map(
+        {["ReactJs and React Native Developer", "From the first pitch to last"].map(
           (item, index) => {
             return (
               <p

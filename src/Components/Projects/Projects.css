@@ -43,6 +43,7 @@
     width: 100%;
     position: relative;
     z-index: 2;
+    margin: 2%;
    
 }
 .section2{
@@ -196,6 +197,7 @@
         width: 100%;
         display: flex;
         flex-direction: column;
+        margin-bottom: 20%;
     }
     .center-part1{
         height: 100%;
@@ -267,9 +269,9 @@
         background: invert(white);
     }
     .section1images i{
-        font-size: 32px; /* Adjust size as needed */
-        width: 18px; /* This won't affect the icon directly */
-        height: 18px;
+        font-size: 120%; /* Adjust size as needed */
+        width: 28px; /* This won't affect the icon directly */
+        height: 28px;
        
     }
     .section2 .services{

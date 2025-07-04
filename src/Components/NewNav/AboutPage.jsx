@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom"
 const AboutPage = () => {
   return (
     <div className='w-full p-[4vw] bg-[#FFF8E8] rounded-tl-3xl rounded-tr-3xl text-black'>
-      <h1 className='Neue_Montreal text-[3vw] leading-[3.5vw] tracking-tight'>I craft responsive, high-performance web applications with React and Vite, emphasizing clean code, custom animations, and intuitive user experiences, ensuring each project is technically sound and visually engaging.</h1>
+      <h1 className='Neue_Montreal text-[3vw] leading-[3.5vw] tracking-tight'>I craft responsive, high-performance web and mobile applications with React and React Native, emphasizing clean code, custom animations, and intuitive user experiences, ensuring each project is technically sound and visually engaging.</h1>
       <div className='w-full grid-cols-1 pt-5 mt-5 gap-3 md:flex md:gap-5 border-t-[1px] md:pt-10 md:mt-20 border-[#0d0f07] '>
         <div className='w-full flex flex-col justify-center items-center md:w-1/2'>
         <h1 className='text-[4vw]'>My Approach</h1>

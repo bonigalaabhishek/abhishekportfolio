@@ -18,7 +18,7 @@ const ProjectPage = () => {
                 <div className=" grid md:flex gap-10 cards w-full mt-10">
                     <div onMouseEnter={()=>setHover(true)} onMouseLeave={()=>setHover(false)} className="cardcontainer relative w-full h-[50vh] md:w-1/2 md:h-[75vh] ">
                     <h1 className='absolute flex overflow-hidden left-full text-[yellow] -translate-x-1/2 top-1/2 -translate-y-1/2 z-[9] leading-none text-5xl tracking-tighter'>
-                    {"FYDY".split("").map((item,index)=><motion.span initial={{y:"100%"}} animate={hover ? {y:"0"}:{y:"100%"}} transition={{ease:[0.22, 1, 0.36, 1],delay:index*0.1}}  className="inline-block" key={index}>{item}</motion.span>)}
+                    {"FRONTEND".split("").map((item,index)=><motion.span initial={{y:"100%"}} animate={hover ? {y:"0"}:{y:"100%"}} transition={{ease:[0.22, 1, 0.36, 1],delay:index*0.1}}  className="inline-block" key={index}>{item}</motion.span>)}
  
                     </h1>
                         <div className="card w-full h-full rounded-xl overflow-hidden">
@@ -28,7 +28,7 @@ const ProjectPage = () => {
                     </div>
                     <div onMouseEnter={()=>setHover2(true)} onMouseLeave={()=>setHover2(false)} className="cardcontainer  relative w-full h-[50vh] md:w-1/2 md:h-[75vh] ">
                     <h1 className='absolute flex overflow-hidden right-full text-[yellow] translate-x-1/2 top-1/2 -translate-y-1/2 z-[9] leading-none text-5xl tracking-tighter'>
-                    {"VISE".split("").map((item,index)=><motion.span initial={{y:"100%"}} animate={hover2 ? {y:"0"}:{y:"100%"}} transition={{ease:[0.22, 1, 0.36, 1],delay:index*0.1}}  className="inline-block" key={index}>{item}</motion.span>)}
+                    {"DEVELOPER".split("").map((item,index)=><motion.span initial={{y:"100%"}} animate={hover2 ? {y:"0"}:{y:"100%"}} transition={{ease:[0.22, 1, 0.36, 1],delay:index*0.1}}  className="inline-block" key={index}>{item}</motion.span>)}
                     </h1>
  
                         <div className="card w-full h-full rounded-xl overflow-hidden">

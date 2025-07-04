@@ -8,6 +8,7 @@
     position: fixed;
     z-index: 1;
     padding: 100px;
+    margin-bottom: 100px;
 }
 .aboutmaincontainer{
     display: flex;
@@ -16,8 +17,8 @@
     width: 100%;
   }
 .headerHeading {
-    font-size: 20vh;
-    height: 20vh;
+    font-size: 15vh;
+    height: 100%;
     line-height: 20vh;
     background: -webkit-linear-gradient(#eee, hsl(194, 93%, 35%));
     -webkit-background-clip: text;

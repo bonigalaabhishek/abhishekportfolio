@@ -114,10 +114,9 @@ const Projects = () => {
         <div className="center">
           <div className="center-part1">
             <h1>
-              Over the last 2 years, my expertise has centered around
+              Over the last 3 years, my expertise has centered around
               JavaScript, encompassing code writing, refactoring, and seamless
-              integration of RESTful APIs with frameworks like React,FlutterFlow
-              and GSAP.{" "}
+              integration of RESTful APIs with frameworks like ReactJS, React Native.{" "}
             </h1>
             <p>
               My experience extends beyond, having worked with diverse tech
@@ -159,50 +158,12 @@ const Projects = () => {
         <div ref={ssroll} className="services">
           <h3>Projects</h3>
           <p>
-            As a frontend developer, I have worked on various projects for
-            different clients. Let's look at my projects, including a custom
-            cursor feature and a GSAP-animated navigation bar.
+            As a Frontend developer, I have worked on various projects for
+            different clients. Let's look at my projects.
           </p>
         </div>
 
         <div ref={ssroll2} id="maintab" className="section2-container">
-          {/* <div className="item" id='tab1' >
-            <div className="item-part1">
-              <h2>Search engine optimization</h2>
-              <h4><i className="fa-solid fa-arrow-up-right-from-square"></i>Learn More</h4>
-            </div>
-            <div className="item-part2">
-              <img src="https://img.icons8.com/?size=100&id=23027&format=png&color=000000" alt="" />
-            </div>
-          </div>
-         
-          <div className="item" id='tab2'>
-            <div className="item-part1">
-              <h2>Search engine optimization</h2>
-              <h4><i className="ri-arrow-right-up-line"></i>Learn More</h4>
-            </div>
-            <div className="item-part2">
-              <img src="https://img.icons8.com/?size=100&id=23027&format=png&color=000000" alt="" />
-            </div>
-          </div>
-          <div className="item" id='tab3'>
-            <div className="item-part1">
-              <h2>Search engine optimization</h2>
-              <h4><i className="ri-arrow-right-up-line"></i>Learn More</h4>
-            </div>
-            <div className="item-part2">
-              <img src="https://img.icons8.com/?size=100&id=23027&format=png&color=000000" alt="" />
-            </div>
-          </div>
-          <div className="item" id='tab4'>
-            <div className="item-part1">
-              <h2>Search engine optimization</h2>
-              <h4><i className="ri-arrow-right-up-line"></i>Learn More</h4>
-            </div>
-            <div className="item-part2">
-              <img src="https://img.icons8.com/?size=100&id=23027&format=png&color=000000" alt="" />
-            </div>
-          </div> */}
           <div className="">
             <div className="w-full relative max-w-xs">
               <div className="absolute inset-0 h-full w-full bg-gradient-to-r from-blue-500 to-teal-500 transform scale-[0.80] bg-red-500 rounded-full blur-3xl" />
@@ -225,17 +186,16 @@ const Projects = () => {
                 </div>
 
                 <h1 className="font-bold text-xl text-white mb-4 relative z-50">
-                  Banking Application
+                  Birla Opus Mobile App
                 </h1>
 
                 <p className="font-normal text-base text-slate-500 mb-4 relative z-50">
-                 Developed Coops application , containing details of customers, accounts, and transaction data.Provided support for application creation in React components and created and added functionalities to several components.
-
+                 Developed a high performance Mobile app for Android and iOS to manage customer and transaction data. Implimented deep linking, Cashfree payment integration, background location tracking, and a forced update feature. Developed reusable components and optimized API response time 25%.
                 </p>
 
-                <button className="border px-4 py-1 rounded-lg border-gray-500 text-gray-300">
+                {/* <button className="border px-4 py-1 rounded-lg border-gray-500 text-gray-300">
                   Explore
-                </button>
+                </button> */}
 
                 {/* Meaty part - Meteor effect */}
                 <Meteors number={20} />
@@ -268,12 +228,12 @@ const Projects = () => {
                 </h1>
 
                 <p className="font-normal text-base text-slate-500 mb-4 relative z-50">
-                Developed a  Axis Bank application where users can add a list of bills and manage all in one budget planner.•	Developed reusable components to reduce development time for future app development
+                Developed a Axis Bank application where users can add a list of bills and manage all in one budget planner with Reactjs. Developed reusable components to reduce development time for future app development. Created a profile management system with custom themes and secure authentication.
                 </p>
 
-                <button className="border px-4 py-1 rounded-lg border-gray-500 text-gray-300">
+                {/* <button className="border px-4 py-1 rounded-lg border-gray-500 text-gray-300">
                   Explore
-                </button>
+                </button> */}
 
                 {/* Meaty part - Meteor effect */}
                 <Meteors number={20} />
@@ -309,9 +269,9 @@ const Projects = () => {
                 Implemented login and registration flows using React and Redux, developed a feature-rich dashboard, managed hospital selection with Context API, and integrated various APIs for user authentication and location selection.
                 </p>
 
-                <button className="border px-4 py-1 rounded-lg border-gray-500 text-gray-300">
+                {/* <button className="border px-4 py-1 rounded-lg border-gray-500 text-gray-300">
                   Explore
-                </button>
+                </button> */}
 
                 {/* Meaty part - Meteor effect */}
                 <Meteors number={20} />
@@ -346,10 +306,10 @@ const Projects = () => {
                 <p className="font-normal text-base text-slate-500 mb-4 relative z-50">
                 Developed NxtTrendz, an eCommerce app  with product search, filters, and sorting. Created pages/routes with React Router, using Route, Switch, Link, state, and event handlers. Added YouTube video embeds.
                 </p>
-
+{/* 
                 <button className="border px-4 py-1 rounded-lg border-gray-500 text-gray-300">
                   Explore
-                </button>
+                </button> */}
 
                 {/* Meaty part - Meteor effect */}
                 <Meteors number={20} />
