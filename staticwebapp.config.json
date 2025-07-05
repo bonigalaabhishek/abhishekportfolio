@@ -1,14 +1,14 @@
 {
-    "routes":[
-        {
-            "route":"/",
-            "redirect":"/abhishekportfolio/",
-            "statusCode":301
-        }
-        {
-            "route":"/*",
-            "serve":"/abhishekportfolio/index.html",
-            "statusCode":200
-        }
-    ]
+  "routes": [
+    {
+      "route": "/",
+      "redirect": "/abhishekportfolio/",
+      "statusCode": 301
+    },
+    {
+      "route": "/abhishekportfolio/*",
+      "serve": "/abhishekportfolio/index.html",
+      "statusCode": 200
+    }
+  ]
 }
