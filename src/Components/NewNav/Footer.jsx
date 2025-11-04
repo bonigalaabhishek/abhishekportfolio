@@ -50,7 +50,7 @@ const Footer = () => {
 
           {/* Resume Download */}
           <a
-            href="./AbhishekBonigalaResume.pdf"
+            href="./Bonigalaabhisresume.pdf"
             download="Abhishek_Resume.pdf"
             className="flex items-center space-x-2"
           >
